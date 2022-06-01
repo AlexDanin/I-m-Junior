@@ -14,7 +14,6 @@
             short age = 18;
             long maxValue = long.MaxValue;
             ulong minValue = ulong.MinValue;
-
         }
     }
 }
