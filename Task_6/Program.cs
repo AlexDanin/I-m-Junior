@@ -7,12 +7,12 @@ namespace Task_6
         static void Main(string[] args)
         {
             int allPictures = 52;
-            int rowPictures = 3;
+            int picturesInRow = 3;
 
-            int rowCount = allPictures / rowPictures;
-            int remainder = allPictures % rowPictures;
+            int filledRowCount = allPictures / picturesInRow;
+            int remainderOfPictures = allPictures % picturesInRow;
 
-            Console.WriteLine($"полностью заполненных рядов можно вывести {rowCount}, и осталось картинок сверх меры {remainder}");
+            Console.WriteLine($"полностью заполненных рядов можно вывести {filledRowCount}, и осталось картинок сверх меры {remainderOfPictures}");
         }
     }
 }
