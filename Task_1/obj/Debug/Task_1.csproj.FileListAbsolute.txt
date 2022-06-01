@@ -1,0 +1,7 @@
+C:\Users\Panda\source\repos\Я_Junior\bin\Debug\Я_Junior.exe.config
+C:\Users\Panda\source\repos\Я_Junior\bin\Debug\Я_Junior.exe
+C:\Users\Panda\source\repos\Я_Junior\bin\Debug\Я_Junior.pdb
+C:\Users\Panda\source\repos\Я_Junior\obj\Debug\Task_1.csproj.AssemblyReference.cache
+C:\Users\Panda\source\repos\Я_Junior\obj\Debug\Task_1.csproj.CoreCompileInputs.cache
+C:\Users\Panda\source\repos\Я_Junior\obj\Debug\Я_Junior.exe
+C:\Users\Panda\source\repos\Я_Junior\obj\Debug\Я_Junior.pdb
