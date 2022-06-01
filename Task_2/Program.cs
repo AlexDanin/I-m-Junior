@@ -13,7 +13,7 @@
             char firstLeter = 'a';
             short age = 18;
             long maxValue = long.MaxValue;
-            var gameObjectName = "ball";
+            ulong minValue = ulong.MinValue;
 
         }
     }

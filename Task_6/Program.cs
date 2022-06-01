@@ -9,7 +9,10 @@ namespace Task_6
             int allPictures = 52;
             int rowPictures = 3;
 
-            Console.WriteLine($"полностью заполненных рядов можно вывести {allPictures / rowPictures}, и осталось картинок сверх меры {allPictures % rowPictures}");
+            int rowCount = allPictures / rowPictures;
+            int remainder = allPictures % rowPictures;
+
+            Console.WriteLine($"полностью заполненных рядов можно вывести {rowCount}, и осталось картинок сверх меры {remainder}");
         }
     }
 }

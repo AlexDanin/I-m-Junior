@@ -9,10 +9,16 @@ namespace Task_8
             const int timeOfAppointment = 10;
             int peopleAmount;
 
+            int hours;
+            int minutes;
+
             Console.WriteLine("Введите кол-во старушек в очереди:");
             peopleAmount = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Вы должны отстоять в очереди {(peopleAmount * timeOfAppointment) / 60} часа и {(peopleAmount * timeOfAppointment) % 60} минут.");
+            hours = (peopleAmount * timeOfAppointment) / 60;
+            minutes = (peopleAmount * timeOfAppointment) % 60;
+
+            Console.WriteLine($"Вы должны отстоять в очереди {hours} часа и {minutes} минут.");
         }
     }
 }

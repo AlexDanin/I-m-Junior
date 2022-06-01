@@ -6,20 +6,20 @@ namespace Task_7
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
+            Random random = new Random();
 
             int amountGold;
             int amountСrystals;
-            int priceOfCrystals;
+            int priceOfCrystal;
 
             Console.WriteLine("Сколько у вас золота?");
             amountGold = Convert.ToInt32(Console.ReadLine());
 
-            priceOfCrystals = rand.Next(1, amountGold);
+            priceOfCrystal = random.Next(1, amountGold);
 
-            Console.WriteLine($"Цена кристала: {priceOfCrystals}.\nСколько кристаллов вы хотите купить?");
+            Console.WriteLine($"Цена кристала: {priceOfCrystal}.\nСколько кристаллов вы хотите купить?");
             amountСrystals = Convert.ToInt32(Console.ReadLine());
-            amountGold -= amountСrystals * priceOfCrystals;
+            amountGold -= amountСrystals * priceOfCrystal;
 
             Console.WriteLine($"Ваши кристалы: {amountСrystals}.\nВаше золото: {amountGold}");
         }
