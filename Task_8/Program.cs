@@ -6,20 +6,22 @@ namespace Task_8
     {
         static void Main(string[] args)
         {
-            const int timeOfAppointment = 10;
-            const int minuntsInHour = 60;
+            const int TimeOfAppointment = 10;
+            const int MinuntsInHour = 60;
             int peopleAmount;
 
-            int hours;
-            int minutes;
+            int hoursOfWaiting;
+            int minutesOfWaiting;
 
             Console.WriteLine("Введите кол-во старушек в очереди:");
             peopleAmount = Convert.ToInt32(Console.ReadLine());
+            
+            int allTimeOfWaiting = (peopleAmount * timeOfAppointment);
 
-            hours = (peopleAmount * timeOfAppointment) / minuntsInHour;
-            minutes = (peopleAmount * timeOfAppointment) % minuntsInHour;
+            hoursOfWaiting = allTimeOfWaiting / minuntsInHour;
+            minutesOfWaiting = allTimeOfWaiting % minuntsInHour;
 
-            Console.WriteLine($"Вы должны отстоять в очереди {hours} часа и {minutes} минут.");
+            Console.WriteLine($"Вы должны отстоять в очереди {hoursOfWaiting} часа и {minutesOfWaiting} минут.");
         }
     }
 }
