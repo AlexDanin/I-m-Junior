@@ -19,6 +19,7 @@ namespace Task_7
 
             Console.WriteLine($"Цена кристала: {priceOfCrystal}.\nСколько кристаллов вы хотите купить?");
             amountСrystals = Convert.ToInt32(Console.ReadLine());
+            
             amountGold -= amountСrystals * priceOfCrystal;
 
             Console.WriteLine($"Ваши кристалы: {amountСrystals}.\nВаше золото: {amountGold}");
